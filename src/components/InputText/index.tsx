@@ -1,7 +1,4 @@
-interface IInputTextProps {
-  value?: string;
-  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-}
+import { IInputTextProps } from "@/types/IInputTextCache";
 
 export const InputText = ({
   value,

@@ -3,3 +3,8 @@ export interface IInputTextCache {
     inputTextCache: string;
   };
 }
+
+export interface IInputTextProps {
+  value?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}
